@@ -40,7 +40,7 @@ https://www.amazon.in/dp/B077GTDWSJ
 
 MongoDB Database : https://cloud.mongodb.com/v2/5ff95e8fbf9c497af5125d85#metrics/replicaSet/5ff96302b4381c4da67a1fa6/explorer/AmazonScrappedDatabase/AmazonScrappedCollection/find
 
-**Username**: tanusree
+**Username**: anubhav
 
 **Password:** can be found in api_constants.py
 
