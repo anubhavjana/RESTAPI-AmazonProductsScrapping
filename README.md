@@ -1,4 +1,4 @@
-@Authored by Anubhav Jana
+@Authored by **Anubhav Jana**
 
 Following are the REST API ENDPOINTS:
 
