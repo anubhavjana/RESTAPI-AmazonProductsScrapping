@@ -51,6 +51,7 @@ MongoDB Database : https://cloud.mongodb.com/v2/5ff95e8fbf9c497af5125d85#metrics
 **Prerequisites**: Docker
 
 Run the following commands:
+
 $ move to the current working directory where the files are there
 
 $ docker image build -t scrap-flaskapp .  #Finds the dockerfile in the current directory and builds an image named scrap-flaskapp: 
