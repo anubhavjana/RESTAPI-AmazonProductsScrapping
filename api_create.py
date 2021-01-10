@@ -17,7 +17,7 @@ app = Flask(__name__)
 
 ################# Building the mongodb connection #####
 database_name = "AmazonScrappedDatabase"
-DB_URI="mongodb+srv://{}:{}@amazon-products-data.zjtih.mongodb.net/{}?retryWrites=true&w=majority".format(urllib.parse.quote('tanusree'),urllib.parse.quote(mongodb_password),database_name)
+DB_URI="mongodb+srv://{}:{}@amazon-products-data.zjtih.mongodb.net/{}?retryWrites=true&w=majority".format(urllib.parse.quote('anubhav'),urllib.parse.quote(mongodb_password),database_name)
 
 client = pymongo.MongoClient(DB_URI)
 db = client['AmazonScrappedDatabase']
@@ -112,6 +112,6 @@ def put_rating():
         return('Scraped rating is {} and rating of the product in database is {} . Successfully updated the rating with recent scraped data'.format(rating,rating_document))
 
 if __name__=="__main__":
-    app.run(debug=True)
-    #app.run(host="0.0.0.0",port=5000)
+    #app.run(debug=True)
+    app.run(host="0.0.0.0",port=5000)
     
