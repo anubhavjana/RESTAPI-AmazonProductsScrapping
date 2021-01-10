@@ -2,7 +2,7 @@
 
 Following are the REST API ENDPOINTS:
 
-**POST** /api/scrap?url=<url link>   ---> Returns the scraped amazon url products data with the current timestamp of scrapping
+**POST** /api/scrap?url=<url link>    ---> Returns the scraped amazon url products data with the current timestamp of scrapping
 
 **POST** /api/scrap/add?url=<url link>    ---> Adds the scraped data to the database with the current timestamp of addition
 
@@ -15,7 +15,9 @@ Following are the REST API ENDPOINTS:
 **PUT** /api/update/rating?url=<url link> --> Updates rating if changed
 
 
-Example : POST /api/scrap?url=https://www.amazon.in/Amazon-Brand-Solimo-Cotton-Paisley/dp/B06WLGNSVJ
+Example : 
+
+          POST /api/scrap?url=https://www.amazon.in/Amazon-Brand-Solimo-Cotton-Paisley/dp/B06WLGNSVJ
 
           POST /api/scrap/add?url=https://www.amazon.in/Amazon-Brand-Solimo-Cotton-Paisley/dp/B06WLGNSVJ
 
