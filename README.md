@@ -1,4 +1,4 @@
-Visit my wiki page for better visual
+@Authored by Anubhav Jana
 
 Following are the REST API ENDPOINTS:
 
